@@ -1,0 +1,20 @@
+-- Install LocalTunnel
+npm install localtunnel -g
+
+-- Run LocalTunnel and provide the port your web site is running on to make it visible to the outside world
+-- The following command will return a random URL that anybody can use in the world.  An example is:  https://fuzzy-bat-81.localtunnel.me
+lt --port 3000
+
+
+-- Run LocalTunnel and provide the port your web site is running on to make it visible to the outside world.
+-- subdomainUse the subdomain option to request a custom instead of getting a randomly generated one.
+-- The following command will return the following URL that anybody can use in the world:  https://123321.localtunnel.me
+lt --port 3000 --subdomain 123321
+
+
+
+
+-- Run the web site
+node buildScripts/srcServer.js
+
+

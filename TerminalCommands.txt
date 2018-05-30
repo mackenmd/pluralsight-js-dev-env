@@ -12,9 +12,10 @@ lt --port 3000
 lt --port 3000 --subdomain 123321
 
 
-
-
 -- Run the web site
 node buildScripts/srcServer.js
 
+
+-- Run all scripts in silent mode
+npm start -s
 

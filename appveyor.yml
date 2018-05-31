@@ -9,10 +9,10 @@ install:
    # Get the latest stable version of Node.js or io.js
    - ps: Install-Product node $env:nodejs_version
    # install modules
-   -npm install
+   - npm install
 
 
-
+Error parsing appveyor.yml: (Line: 16, Col: 1, Idx: 302) - (Line: 16, Col: 1, Idx: 302): While scanning a simple key, could not find expected ':'.
 # Post-install test scripts.
 test_script:
    # Output useful info for debugging.

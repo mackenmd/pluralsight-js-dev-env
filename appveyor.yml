@@ -11,8 +11,6 @@ install:
    # install modules
    - npm install
 
-
-Error parsing appveyor.yml: (Line: 16, Col: 1, Idx: 302) - (Line: 16, Col: 1, Idx: 302): While scanning a simple key, could not find expected ':'.
 # Post-install test scripts.
 test_script:
    # Output useful info for debugging.
